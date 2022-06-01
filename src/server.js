@@ -15,8 +15,8 @@ app.get('/', (req, res) => {
 app.get('/data', (req, res) => {
   res.json({
     id: 1,
-    name: 'Yasein Burqan',
-    email: 'mr.yasein@gmail.com',
+    name: 'Ahmad Amaireh',
+    email: 'a_amayreh@hotmail.com',
   });
 });
 app.get('/test', stamper, (req, res) => {
